@@ -1,6 +1,10 @@
-*.iml
-*.md
-*.cmd
 *.idea
 *.mvn
-/mvnw
+*.iml
+*.cmd
+*.md
+mvnw
+target
+/*/target
+/byte-buddy-demo/target/
+/*/.gitignore

@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author harvey
  * @date 2020/1/6
- * @email husy7@midea.com
  */
 @RestController
 @RequestMapping("/customer")

@@ -6,7 +6,6 @@ import org.apache.dubbo.config.annotation.Service;
 /**
  * @author harvey
  * @date 2020/1/6
- * @email husy7@midea.com
  */
 @Service(version = "1.0.0",interfaceClass = CustomerService.class,group = "customer")
 public class CustomerServiceImpl implements CustomerService{
