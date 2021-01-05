@@ -3,23 +3,29 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
     <parent>
         <groupId>com.harvey.spring.cloud</groupId>
         <artifactId>spring-cloud-demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.harvey.spring.cloud</groupId>
-    <artifactId>eureka-server-capacity-demo</artifactId>
+    <artifactId>feign-quick-start-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>eureka-server-capacity-demo</name>
-    <description>eureka server 扩容实例 </description>
-    <packaging>pom</packaging>
+    <name>feign-quick-start-demo</name>
+    <description>feign quick start demo</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+    </dependencies>
 
     <build>
         <plugins>
