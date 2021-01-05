@@ -10,22 +10,15 @@
     </parent>
 
     <groupId>com.harvey.spring.cloud</groupId>
-    <artifactId>eureka-client-demo</artifactId>
+    <artifactId>eureka-server-capacity-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>eureka-client-demo</name>
-    <description>快速</description>
+    <name>eureka-server-capacity-demo</name>
+    <description>eureka server 扩容实例 </description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>
